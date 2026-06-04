@@ -19,10 +19,6 @@ My current research focuses on using **generative deep learning for monthly grav
 
 ### Generative AI for Monthly Gravity Field Enhancement
 
-My master thesis focuses on enhancing monthly gravity field solutions from Satellite Laser Ranging (SLR) toward GRACE-like spatial resolution.
-
-The core problem is to learn a mapping from low-degree spherical harmonic coefficients, available from long-term SLR observations, to higher-degree GRACE-like gravity field representations. This is relevant for extending and improving time-variable gravity records beyond the GRACE and GRACE-FO mission periods.
-
 This work involves:
 
 - Spherical harmonic representation of Earth’s time-variable gravity field
@@ -44,7 +40,7 @@ This work included:
 - Building a proxy dataset for marine anomaly screening
 - Designing compact machine learning pipelines for onboard use
 - Evaluating feature-based and linear SVM approaches
-- Preparing a first-author paper accepted at IEEE IGARSS 2026
+- First-author paper accepted at IEEE IGARSS 2026
 
 ### Deep Learning for Remote Sensing
 
@@ -100,7 +96,6 @@ I have worked on projects involving:
 - PRISMA and CHIME-like data
 - Spherical harmonics and gravity field data
 - Equivalent Water Height analysis
-- HDF5 / NetCDF / raster data
 - Feature engineering for remote sensing
 
 ### Tools & Environments
@@ -110,14 +105,11 @@ I have worked on projects involving:
 - Jupyter
 - Overleaf
 - Ansys
-- Webots
 
 ## Selected Interests
 
 - Scientific Machine Learning
 - Space Geodesy
-- Time-Variable Gravity Fields
-- GRACE / GRACE-FO / SLR
 - Earth Observation AI
 - Onboard AI for Satellites
 - Hyperspectral Imaging
