@@ -1,76 +1,109 @@
 # Hi, I'm Adrien Joliat
 
-I'm a Computational Science & Engineering master's student at EPFL with experience in **AI for Earth Observation**, **hyperspectral satellite data**, and **scientific machine learning**. 
+I'm a Computational Science & Engineering master's student at EPFL, currently doing my master thesis as a visiting research student at ETH Zürich in the Space Geodesy Lab.
 
-My work focuses on developing machine learning methods for real-world scientific and space applications, from onboard AI for satellite missions to deep learning for geospatial data analysis.
+My work sits at the intersection of **scientific machine learning**, **space geodesy**, and **Earth observation AI**. I build machine learning models for satellite-derived geophysical data, with a focus on learning physically meaningful representations from sparse or low-resolution observations.
+
+My current research focuses on using **generative deep learning for monthly gravity field enhancement**, learning to reconstruct GRACE-like spherical harmonic gravity solutions from low-degree SLR-derived observations.
 
 ## Current Focus
 
-- Generative AI (autoregressive transformer encoder-decoder) to enhance monthly gravity field solution 
+- Generative AI for time-variable gravity field reconstruction
+- Autoregressive Transformer models for spherical harmonic coefficient prediction
+- Enhancing low-resolution SLR gravity fields toward GRACE-like monthly solutions
+- Scientific machine learning for geophysical time series
 - AI for Earth Observation and satellite data processing
-- Hyperspectral remote sensing for marine anomaly detection
-- Onboard machine learning for future satellite missions
-- Deep learning for geospatial and physical systems
-- Scientific machine learning and computational modelling
+- Hyperspectral remote sensing and onboard AI for future satellite missions
 
 ## Research & Projects
 
+### Generative AI for Monthly Gravity Field Enhancement
+
+My master thesis focuses on enhancing monthly gravity field solutions from Satellite Laser Ranging (SLR) toward GRACE-like spatial resolution.
+
+The core problem is to learn a mapping from low-degree spherical harmonic coefficients, available from long-term SLR observations, to higher-degree GRACE-like gravity field representations. This is relevant for extending and improving time-variable gravity records beyond the GRACE and GRACE-FO mission periods.
+
+This work involves:
+
+- Spherical harmonic representation of Earth’s time-variable gravity field
+- Low-degree SLR input data and GRACE/COST-G target solutions
+- Autoregressive sequence modelling of spherical harmonic coefficients
+- Transformer encoder architectures and recurrent spectral decoders
+- Evaluation in both coefficient space and spatial equivalent water height fields
+- Basin-scale hydrological validation and comparison against existing geodetic reconstruction methods
+
 ### Onboard AI for Marine Anomaly Detection
 
-I worked on machine learning methods for detecting marine anomalies such as marine debris, oil spills, and floating materials using hyperspectral satellite data.
+During my research internship at ESA ESTEC, I worked on onboard AI for the Copernicus Hyperspectral Imaging Mission for the Environment (CHIME).
 
-This work involved:
+The goal was to develop lightweight machine learning methods for detecting marine anomalies such as marine debris, oil spills, and floating materials directly from hyperspectral satellite data under onboard computational constraints.
 
-- Processing PRISMA and CHIME-like hyperspectral data
-- Building a proxy dataset for onboard screening experiments
-- Designing lightweight machine learning models suitable for constrained satellite environments
-- Evaluating linear SVM-based approaches for marine anomaly detection
-- Preparing research work accepted to IGARSS 2026
+This work included:
+
+- Processing PRISMA and CHIME-like hyperspectral imagery
+- Building a proxy dataset for marine anomaly screening
+- Designing compact machine learning pipelines for onboard use
+- Evaluating feature-based and linear SVM approaches
+- Preparing a first-author paper accepted at IEEE IGARSS 2026
 
 ### Deep Learning for Remote Sensing
 
-I have worked on semantic segmentation and geospatial image analysis using deep learning, with a focus on remote sensing applications.
+I have also worked on deep learning methods for geospatial image analysis and remote sensing, including semantic segmentation and hierarchical land-cover classification.
 
 Topics include:
 
-- Pixel-level classification
-- Satellite and aerial image segmentation
-- Hierarchical land-cover classification
-- Hyperbolic representation learning
-- Incremental learning and prototype-based methods
+- Pixel-level classification of satellite and airborne imagery
+- Change detection in Earth observation data
+- Hyperbolic representation learning for hierarchical classes
+- Incremental learning and prototype-based classification
+- Computer vision for remote sensing and space applications
 
-### Scientific Machine Learning
+### AI for Space and Scientific Systems
 
-I am also interested in machine learning for physical and engineering systems, including operator learning, numerical modelling, and data-driven approaches for scientific simulation.
+Beyond Earth observation, I am interested in machine learning for physical systems, numerical modelling, and scientific simulation.
+
+I have worked on projects involving:
+
+- Deep learning for solar physics and space weather data
+- Coronal jet identification using image and video object detection
+- Neural operators, physics-informed learning, and scientific ML
+- Data-driven modelling for engineering and geophysical systems
 
 ## Technical Skills
 
-**Programming**
+### Programming & Scientific Computing
 
 - Python
+- PyTorch
+- scikit-learn
 - MATLAB
+- C, SQL, R
 - Git / GitHub
 - LaTeX
 
-**Machine Learning & AI**
+### Machine Learning & AI
 
-- PyTorch
-- scikit-learn
 - Deep learning
+- Transformers
+- Autoregressive models
+- Scientific machine learning
+- Computer vision
+- Semantic segmentation
 - Support Vector Machines
 - Logistic regression / LDA
-- Semantic segmentation
 - Model evaluation and validation
 
-**Remote Sensing & Scientific Data**
+### Earth Observation & Geospatial Data
 
-- Hyperspectral image processing
-- Satellite data analysis
-- PRISMA / CHIME-like data
+- Satellite data processing
+- Hyperspectral image analysis
+- PRISMA and CHIME-like data
+- Spherical harmonics and gravity field data
+- Equivalent Water Height analysis
 - HDF5 / NetCDF / raster data
-- Spectral indices and feature engineering
+- Feature engineering for remote sensing
 
-**Tools & Environments**
+### Tools & Environments
 
 - Linux / HPC environments
 - Conda
@@ -81,12 +114,14 @@ I am also interested in machine learning for physical and engineering systems, i
 
 ## Selected Interests
 
-- Artificial Intelligence for Space
-- Earth Observation
-- Onboard AI
+- Scientific Machine Learning
+- Space Geodesy
+- Time-Variable Gravity Fields
+- GRACE / GRACE-FO / SLR
+- Earth Observation AI
+- Onboard AI for Satellites
 - Hyperspectral Imaging
 - Remote Sensing
-- Scientific Machine Learning
 - Geospatial AI
 - Computational Modelling
 
