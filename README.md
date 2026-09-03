@@ -18,7 +18,7 @@ My work has covered **generative AI, computer vision, scientific machine learnin
 * **Scientific machine learning** for physical and engineering systems
 * **End-to-end ML pipelines**, experimentation and evaluation
 * **Space & Earth Observation AI**
-* Multimodal and scientific data
+* **Multimodal and scientific data**
 
 ---
 
