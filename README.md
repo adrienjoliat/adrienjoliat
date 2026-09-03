@@ -1,6 +1,6 @@
 # Hi, I'm Adrien Joliat
 
-I'm a Computational Science & Engineering master's student at EPFL, currently doing my master thesis as a visiting research student at ETH Zürich in the Space Geodesy Lab.
+I'm a Computational Science & Engineering graduate from EPFL and ETHZ.
 
 My work sits at the intersection of **scientific machine learning**, **space geodesy**, and **Earth observation AI**. I build machine learning models for satellite-derived geophysical data, with a focus on learning physically meaningful representations from sparse or low-resolution observations.
 
