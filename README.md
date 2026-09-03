@@ -1,123 +1,160 @@
-# Hi, I'm Adrien Joliat
+# Hi, I'm Adrien Joliat 👋
 
-I'm a Computational Science & Engineering graduate from EPFL and ETHZ.
+**Computational Engineer | Machine Learning & Research Engineering | Generative AI • Computer Vision • Scientific ML • AI Agents**
 
-My work sits at the intersection of **scientific machine learning**, **space geodesy**, and **Earth observation AI**. I build machine learning models for satellite-derived geophysical data, with a focus on learning physically meaningful representations from sparse or low-resolution observations.
+I'm a **Computational Science & Engineering graduate from EPFL**, with research experience at the **ETH Zurich Space Geodesy Lab** and the **European Space Agency (ESA)**.
 
-My current research focuses on using **generative deep learning for monthly gravity field enhancement**, learning to reconstruct GRACE-like spherical harmonic gravity solutions from low-degree SLR-derived observations.
+I build **end-to-end machine learning systems**, from data processing and representation design to model training, large-scale experimentation, validation, and domain-specific evaluation.
 
-## Current Focus
+My work has covered **generative AI, computer vision, scientific machine learning, Earth observation, hyperspectral imaging, geophysical modelling, numerical methods, and ML engineering**. I am currently expanding this background toward **AI agents and agentic systems**.
 
-- Generative AI for time-variable gravity field reconstruction
-- Autoregressive Transformer models for spherical harmonic coefficient prediction
-- Enhancing low-resolution SLR gravity fields toward GRACE-like monthly solutions
-- Scientific machine learning for geophysical time series
-- AI for Earth Observation and satellite data processing
-- Hyperspectral remote sensing and onboard AI for future satellite missions
+---
 
-## Research & Projects
+## 🧠 Current Focus
 
-### Generative AI for Monthly Gravity Field Enhancement
+* **AI agents & agentic workflows**
+* **Generative AI** and sequence modelling
+* **Computer vision** and representation learning
+* **Scientific machine learning** for physical and engineering systems
+* **End-to-end ML pipelines**, experimentation and evaluation
+* **Space & Earth Observation AI**
+* Multimodal and scientific data
 
-This work involves:
+---
 
-- Spherical harmonic representation of Earth’s time-variable gravity field
-- Low-degree SLR input data and GRACE/COST-G target solutions
-- Autoregressive sequence modelling of spherical harmonic coefficients
-- Transformer encoder architectures and recurrent spectral decoders
-- Evaluation in both coefficient space and spatial equivalent water height fields
-- Basin-scale hydrological validation and comparison against existing geodetic reconstruction methods
+## 🚀 Selected Work
 
-### Onboard AI for Marine Anomaly Detection
+### 🌍 Generative AI for Earth Gravity Reconstruction — ETH Zurich
 
-During my research internship at ESA ESTEC, I worked on onboard AI for the Copernicus Hyperspectral Imaging Mission for the Environment (CHIME).
+**MSc Thesis · Space Geodesy Lab**
 
-The goal was to develop lightweight machine learning methods for detecting marine anomalies such as marine debris, oil spills, and floating materials directly from hyperspectral satellite data under onboard computational constraints.
+Developed an end-to-end deep learning system for enhancing monthly time-variable gravity-field solutions derived from **Satellite Laser Ranging (SLR)** toward **GRACE-like solutions**.
 
-This work included:
+* Built a complete **Transformer–GRU pipeline** spanning preprocessing, custom tokenization, training, checkpointing and evaluation
+* Modelled spherical harmonic coefficient sequences using autoregressive and generative approaches
+* Worked with SLR, GRACE and COST-G geodetic products
+* Evaluated predictions in both **spectral coefficient space** and **spatial Equivalent Water Height fields**
+* Performed hydrological and basin-scale validation
+* Ran large-scale experiments on **HPC infrastructure**
+* Achieved **28.4% lower error than previous reconstruction methods evaluated in the study**
 
-- Processing PRISMA and CHIME-like hyperspectral imagery
-- Building a proxy dataset for marine anomaly screening
-- Designing compact machine learning pipelines for onboard use
-- Evaluating feature-based and linear SVM approaches
-- First-author paper accepted at IEEE IGARSS 2026
+**Topics:** Generative AI · Transformers · GRUs · Time Series · Scientific ML · Geophysics · HPC
 
-### Deep Learning for Remote Sensing
+---
 
-I have also worked on deep learning methods for geospatial image analysis and remote sensing, including semantic segmentation and hierarchical land-cover classification.
+### 🛰️ Onboard AI for Earth Observation — European Space Agency
 
-Topics include:
+**Research Intern · ESA ESTEC · CHIME Mission**
 
-- Pixel-level classification of satellite and airborne imagery
-- Change detection in Earth observation data
-- Hyperbolic representation learning for hierarchical classes
-- Incremental learning and prototype-based classification
-- Computer vision for remote sensing and space applications
+Worked on onboard artificial intelligence for the **Copernicus Hyperspectral Imaging Mission for the Environment (CHIME)**, with the goal of screening marine anomalies directly from hyperspectral satellite observations under onboard computational and data constraints.
 
-### AI for Space and Scientific Systems
+* Built and processed hyperspectral proxy datasets
+* Worked with **PRISMA and EnMAP** satellite imagery
+* Designed reusable preprocessing and feature-engineering pipelines
+* Performed spectral feature extraction and selection
+* Trained and validated machine-learning models for anomaly screening
+* Investigated marine debris, oil-related features and other anomalous marine targets
+* Evaluated algorithms with respect to both ML performance and **practical onboard constraints**
+* Contributed to approaches for intelligent onboard data reduction and event-based screening
 
-Beyond Earth observation, I am interested in machine learning for physical systems, numerical modelling, and scientific simulation.
+This work resulted in a **first-author paper at IEEE IGARSS 2026**.
 
-I have worked on projects involving:
+**Topics:** Hyperspectral Imaging · Remote Sensing · Onboard AI · Machine Learning · Data Engineering · Satellite Systems
 
-- Deep learning for solar physics and space weather data
-- Coronal jet identification using image and video object detection
-- Neural operators, physics-informed learning, and scientific ML
-- Data-driven modelling for engineering and geophysical systems
+---
 
-## Technical Skills
+### ☀️ Computer Vision for Solar Physics — ESA × MLO
 
-### Programming & Scientific Computing
+Worked on deep learning methods for detecting **coronal jets in solar observations**, framing the problem through image and video object detection.
 
-- Python
-- PyTorch
-- scikit-learn
-- MATLAB
-- C, SQL, R
-- Git / GitHub
-- LaTeX
+* Computer vision for scientific imagery
+* Image and video object detection
+* Solar physics and space-weather observations
+* Scientific dataset processing and model evaluation
+
+**Topics:** Computer Vision · Object Detection · Deep Learning · Space Weather
+
+---
+
+### 🗺️ Hyperbolic Deep Learning for Earth Observation — ECEO
+
+Developed deep-learning methods for **airborne image segmentation and change detection**, using hyperbolic representations to model hierarchical land-cover classes.
+
+* Semantic segmentation of high-resolution imagery
+* Hyperbolic representation learning
+* Hierarchical classification
+* Prototype-based learning
+* Incremental learning
+* Remote-sensing change detection
+
+**Topics:** Semantic Segmentation · Representation Learning · Hyperbolic ML · Remote Sensing
+
+---
+
+## 🔬 Scientific ML & Computational Engineering
+
+My broader work at EPFL and ETH Zurich has also included:
+
+* **Neural operators**
+* **Physics-Informed Neural Networks (PINNs)**
+* Numerical modelling and simulation
+* Applied data analysis
+* Mathematics of data
+* Distributed intelligent systems
+* Numerical flow simulation
+* Geospatial data processing
+* Scientific time-series modelling
+
+My main interest is in using modern AI methods where **data, mathematics, physical systems and engineering constraints interact**.
+
+---
+
+## 🛠️ Technical Stack
 
 ### Machine Learning & AI
 
-- Deep learning
-- Transformers
-- Autoregressive models
-- Scientific machine learning
-- Computer vision
-- Semantic segmentation
-- Support Vector Machines
-- Logistic regression / LDA
-- Model evaluation and validation
+`PyTorch` · `scikit-learn` · `Transformers` · `GRU / Recurrent Models` · `Generative AI` · `Computer Vision` · `Object Detection` · `Semantic Segmentation` · `Scientific ML` · `Classical ML` · `AI Agents`
 
-### Earth Observation & Geospatial Data
+### Programming & Data
 
-- Satellite data processing
-- Hyperspectral image analysis
-- PRISMA and CHIME-like data
-- Spherical harmonics and gravity field data
-- Equivalent Water Height analysis
-- Feature engineering for remote sensing
+`Python` · `MATLAB` · `C` · `SQL` · `R`
 
-### Tools & Environments
+### Research & Engineering
 
-- Linux / HPC environments
-- Conda
-- Jupyter
-- Overleaf
-- Ansys
+`Linux` · `HPC / SLURM` · `Git / GitHub` · `Jupyter` · `Conda` · ML pipelines · Data preprocessing · Training & validation · Experimentation · Model evaluation
 
-## Selected Interests
+### Scientific & Geospatial
 
-- Scientific Machine Learning
-- Space Geodesy
-- Earth Observation AI
-- Onboard AI for Satellites
-- Hyperspectral Imaging
-- Remote Sensing
-- Geospatial AI
-- Computational Modelling
+Hyperspectral imaging · Remote sensing · Satellite data · Geospatial data · Spherical harmonics · Numerical modelling · Physical systems · Neural operators · PINNs
 
-## Contact
+---
 
-- LinkedIn: [Adrien Joliat](https://www.linkedin.com/in/adrien-joliat/)
-- GitHub: [@adrienjoliat](https://github.com/adrienjoliat)
+## 📄 Publication
+
+**A. Joliat et al.**
+*CHIME Onboard AI for Marine-Anomaly Screening: CHIME-MDset Proxy Dataset, 14-Feature Linear SVM, and Validation*
+**IEEE International Geoscience and Remote Sensing Symposium — IGARSS 2026**, Washington, D.C.
+**First author**
+
+---
+
+## 🎓 Background
+
+**EPFL — École polytechnique fédérale de Lausanne**
+MSc in **Computational Science and Engineering**, Institute of Mathematics · 2023–2026
+BSc in **Environmental Science and Engineering** · 2020–2023
+
+**ETH Zurich — Space Geodesy Lab**
+Visiting Research Student · 2025–2026
+MSc thesis in generative AI for time-variable gravity reconstruction and coursework in AI for science and engineering
+
+**European Space Agency — ESTEC**
+Research Intern, **Onboard AI for Earth Observation** · 2025
+
+---
+
+## 📫 Connect
+
+[LinkedIn](https://www.linkedin.com/in/adrien-joliat/) · [GitHub](https://github.com/adrienjoliat)
+
+📍 Switzerland
